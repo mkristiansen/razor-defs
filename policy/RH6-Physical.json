@@ -1,0 +1,11 @@
+{
+  "name": "CentOS 6 Enterprise Linux - Physical",
+  "repo": { "name": "centos6" },
+  "task": { "name": "centos" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "icsint${id}.spenell.local",
+  "root_password": "Sp3n3llKr",
+  "max_count": 100,
+  "tags": [{ "name": "LargeMem_Physical"}]
+}

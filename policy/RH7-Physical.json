@@ -1,0 +1,11 @@
+{
+  "name": "RedHat Enterprise Linux 7 - Physical",
+  "repo": { "name": "rhel7" },
+  "task": { "name": "redhat" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "icsint${id}.spenell.local",
+  "root_password": "Sp3n3llKr",
+  "max_count": 100,
+  "tags": [{ "name": "LargeMem_Physical"}]
+}

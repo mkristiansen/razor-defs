@@ -1,0 +1,12 @@
+{
+  "name": "ESXi",
+  "repo": { "name": "ESX55" },
+  "task": { "name": "vmware_esxi" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "host${id}.spenell.local",
+  "root_password": "Sp3n3llKr",
+  "max_count": "100",
+  "rule_number": "100",
+  "tags": [{ "name": "Test_tag"}]
+}

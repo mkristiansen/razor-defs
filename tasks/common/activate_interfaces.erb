@@ -1,0 +1,7 @@
+<%# -*- shell-script -*- %>
+
+<% node.interfaces.each do |interface|
+  if interface != 'lo'
+    "network --activate --device=#{interface}" 
+    end 
+  end %>

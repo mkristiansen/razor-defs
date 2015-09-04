@@ -1,0 +1,8 @@
+{
+  "name": "LargeMem_Physical",
+  "rule": ["and",
+    [">=", ["num", ["fact", "processorcount"]], 2],
+    ["=", ["fact", "is_virtual"], "false"],
+    [">=", ["num", ["fact", "memorysize_mb"]], 16384]
+   ]
+}

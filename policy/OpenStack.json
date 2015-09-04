@@ -1,0 +1,11 @@
+{
+  "name": "OpenStack",
+  "repo": { "name": "trusty64" },
+  "task": { "name": "ubuntu-trusty" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "icsint${id}.spenell.local",
+  "root_password": "Sp3n3llKr",
+  "max_count": 100,
+  "tags": [{ "name": "LargeMem_Physical"}]
+}

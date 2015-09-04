@@ -1,0 +1,8 @@
+{
+  "name": "Test_tag",
+  "rule": ["and",
+[">=", ["num", ["fact", "processorcount"]], 2],
+["=", ["fact", "is_virtual"], "true"],
+[">=", ["num", ["fact", "memorysize_mb"]], 2048]
+   ]
+}

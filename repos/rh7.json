@@ -1,0 +1,5 @@
+{
+  "name": "rhel7",
+  "iso-url": "file:///vagrant/RHEL-7.0-20140507.0-Server-x86_64-dvd1.iso",
+  "task": "redhat"
+}

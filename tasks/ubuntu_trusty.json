@@ -1,0 +1,10 @@
+{
+  "name":"ubuntu_trusty",
+  "base":
+    {"name":"ubuntu"},
+  "os":
+    {"version":"precise"},
+  "description":"Ubuntu Generic Installer",
+  "boot_seq":
+    {"1":"boot_install","default":"boot_local"}
+}

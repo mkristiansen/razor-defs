@@ -1,0 +1,12 @@
+{
+  "name": "Trusty64",
+  "repo": { "name": "Trusty64" },
+  "task": { "name": "ubuntu" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "host${id}.spenell.local",
+  "root_password": "Sp3n3llKr",
+  "max_count": "100",
+  "rule_number": "101",
+  "tags": [{ "name": "2CPUs_4GB+_NotVirtual"}]
+}

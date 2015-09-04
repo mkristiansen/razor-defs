@@ -1,0 +1,55 @@
+From http://10.1.2.110:8080/api/collections/nodes/node7:
+
+            architecture: x86_64
+    blockdevice_sda_size: 1200040706048
+  blockdevice_sda_vendor: ServeRA
+   blockdevice_sda_model: VOL_A
+    blockdevice_sdb_size: 899667722240
+  blockdevice_sdb_vendor: ServeRA
+   blockdevice_sdb_model: VOL_B
+    blockdevice_sr0_size: 1073741312
+  blockdevice_sr0_vendor: MATSHITA
+   blockdevice_sr0_model: UJDA770 DVD/CDRW
+            blockdevices: sda,sdb,sr0
+              macaddress: 00:1a:64:09:fa:c4
+           facterversion: 1.7.4
+             hardwareisa: x86_64
+           hardwaremodel: x86_64
+              interfaces: enp3s0,enp6s0,lo
+       macaddress_enp3s0: 00:1a:64:09:fa:c4
+        ipaddress_enp6s0: 10.1.2.209
+       macaddress_enp6s0: 00:1a:64:09:fa:c6
+          netmask_enp6s0: 255.255.255.0
+            ipaddress_lo: 127.0.0.1
+              netmask_lo: 255.0.0.0
+               ipaddress: 10.1.2.209
+       boardmanufacturer: IBM
+        boardproductname: System Planar
+       boardserialnumber: Not Specified
+             bios_vendor: IBM
+            bios_version: -[GGE129BUS-1.05]-
+       bios_release_date: 04/04/2007
+            manufacturer: IBM
+             productname: IBM System x3650 -[7979K6G]-
+            serialnumber: KDFFLCG
+                    uuid: 31FCC5EB-6C22-316D-A1F2-10E7886B3B38
+                    type: Main Server Chassis
+           memorysize_mb: 24113.47
+           memoryfree_mb: 23861.07
+                 netmask: 255.255.255.0
+          network_enp6s0: 10.1.2.0
+              network_lo: 127.0.0.0
+  physicalprocessorcount: 2
+              processor0: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor1: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor2: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor3: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor4: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor5: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor6: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+              processor7: Intel(R) Xeon(R) CPU           E5345  @ 2.33GHz
+          processorcount: 8
+                uniqueid: 010ad102
+                 virtual: physical
+              is_virtual: false
+
